@@ -1,0 +1,245 @@
+<!--
+tags
+
+
+1. HTML Tags
+-----------------
+html
+title
+boby
+div
+h1 - h6
+
+p
+span
+label
+table(th,td,tr)
+
+2. controls
+------------------
+
+input (text,textarea,number,date,radio)
+select
+file upload
+
+
+-->
+
+
+<html>
+<title> Sample Program - Learning</title>
+<style>
+  .imgset {
+    /* background-image:url("C:/Users/v-ssasikumar/Downloads/download.png");
+		background-repeat: no-repeat; */
+    width: '900px';
+    height: '750px';
+  }
+</style>
+<script>
+  var flag = 0;
+  function onClickhandler() {
+    alert(document.getElementById('name').value)
+  }
+  function onClickhandlerClose() {
+    alert('This Page will be closing due to some technical issue.')
+    window.close()
+  }
+  function onClickhandlersearch() {
+    var root = document.getElementById("Searchbox")
+    root.setAttribute("style", "display:''")
+    root.innerHTML = "Searching Data " + document.getElementById('name').value;
+  }
+  function onChangehandler() {
+
+    var root = document.getElementById("Searchbox")
+    root.setAttribute("style", "display:none")
+    //root.innerHTML="Searching Data " + document.getElementById('name').value;
+  }
+</script>
+
+<body class="imgset">
+  <h1 style="text-align: center;">Sample Program</h1>
+
+  <div style="background-color: pink;  padding: 50px 50px 50px 50px;">
+
+    <a href="home.html">Home</a>
+
+    <table style="border: 1px solid black;">
+      <tr style="border: 1px solid black;">
+        <td><img src="C:\Users\v-ssasikumar\Downloads\download.png" width="50px" heigth="50px" /></td>
+        <td>Registration</td>
+      </tr>
+      <tr style="border: 1px solid black;">
+        <td style="border: 1px solid black;">name</td>
+        <td><input type="text" /></td>
+      </tr>
+
+      <tr style="border: 1px solid black;">
+        <td style="border: 1px solid black;">age</td>
+        <td><input type="number" /></td>
+      </tr>
+
+      <tr style="border: 1px solid black;">
+        <td style="border: 1px solid black;">DOB</td>
+        <td><input type="date" />
+      </tr>
+
+      <tr style="border: 1px solid black;">
+        <td style="border: 1px solid black;">Gender</td>
+
+        <td>
+          <input type="radio" /><label>Male</label>
+          <input type="radio" /><label>Female</label>
+        </td>
+      </tr>
+
+      <tr style="border: 1px solid black;">
+        <td style="border: 1px solid black;">Address</td>
+        <td><textarea></textarea>
+      </tr>
+
+      <tr style="border: 1px solid black;">
+        <td style="border: 1px solid black;">City</td>
+
+        <td>
+          <select>
+            <option> Mettupalyam</option>
+            <option> Coimbatore</option>
+          </select>
+        </td>
+      </tr>
+      <tr style="border: 1px solid black;">
+        <td style="border: 1px solid black;">State</td>
+
+        <td>
+          <select>
+            <option> TN</option>
+            <option> KN</option>
+          </select>
+        </td>
+      </tr>
+      <tr style="border: 1px solid black;">
+        <td style="border: 1px solid black;">Pincode</td>
+        <td><input type="number" /></td>
+      </tr>
+
+      <tr style="border: 1px solid black;">
+        <td style="border: 1px solid black;">Attachment</td>
+        <td><input type="file" /></td>
+      </tr>
+      <tr style="border: 1px solid black;">
+        <td><input type="checkbox" /> I agree</td>
+      </tr>
+
+      <tr style="border: 1px solid black;">
+        <td><button>Submit</button></td>
+        <td><button>Next Page</button></td>
+      </tr>
+    </table>
+
+  </div>
+
+
+  <!-- <div style="background-color: brown; margin:20px">
+    <label style="color: green; font-size:50px;"> I
+      am
+      Programer </label>
+  </div>
+  <p style="background-color: blueviolet; width:500px; height: 250px;"><label
+      style="color: green; font-size:50px; margin: 150px;"> I
+      am
+      Programer </label>
+  </p>
+  <span></span>
+  <input type="text" value="" id="name" />
+  <button style="background-color: darkorange;" onclick="alert(document.getElementById('name').value)">Save</button> -->
+
+  <!-- <div>
+    <div style=" display: flex;">
+    <div style="color:green; width: 100px;">
+      <img src="C:\Users\v-ssasikumar\Downloads\download.png" width="50px" heigth="50px" />
+    </div>
+    <div style="color:green; width: 100px;">
+      <label> I am PRogramer </label>
+    </div>
+    </div>
+    <br />
+    <div style="display: flex;">
+      <div style="color:green; width: 100px;">
+        <label> Name </label>
+      </div>
+      <input type="text" name="name" id="name" value="" onChange="onChangehandler()" />
+    </div>
+    <br />
+    <div style="display: flex;">
+      <div style="color:green; width: 100px;">
+        <label width="100px"> Age </label>
+      </div>
+      <input type="number" name="age" id="age" value="" />
+    </div>
+    <br />
+
+    <div style="display: flex;">
+      <div style="color:green; width: 100px;">
+        <label width="100px"> DOB </label>
+      </div>
+      <input type="date" name="date" id="date" />
+    </div>
+
+    <br />
+
+    <div style="display: flex;">
+      <div style="color:green; width: 100px;">
+        <label width="100px"> Gender </label>
+      </div>
+      <input type="radio" name="gender" id="gender" value="Male" text="Male" /> Male
+      <input type="radio" name="gender" id="gender" value="Female" text="Male" /> Female
+    </div>
+
+    <br />
+
+    <div style="display: flex;">
+      <div style="color:green; width: 100px;">
+        <label width="100px"> City </label>
+      </div>
+      <select>
+        <option> Mettupalayam</option>
+        <option> Coimbatore</option>
+        <option> Coimbatore</option>
+        <option> Coimbatore</option>
+      </select>
+    </div>
+    <br />
+
+    <br />
+
+    <div style="display: flex;">
+      <div style="color:green; width: 100px;">
+        <label width="100px"> Upload image </label>
+      </div>
+      <input type="file" name="file" id="file" />
+    </div>
+    <br />
+    <div style="display: flex; ">
+      <div style="padding-left: 10px;">
+        <button onclick="onClickhandler()">Save</button>
+      </div>
+      <div style="padding-left: 10px;">
+        <button onclick="onClickhandlersearch()">Search</button>
+      </div>
+      <div style="padding-left: 10px;">
+        <button onclick="onClickhandlerClose()">Cancel</button>
+      </div>
+    </div>
+    <br />
+    <br />
+    <div style="display: none;" id="Searchbox">
+    </div>
+    </div> -->
+
+
+
+</body>
+
+</html>

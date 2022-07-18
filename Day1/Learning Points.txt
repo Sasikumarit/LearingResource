@@ -1,0 +1,61 @@
+HTML -- used to design the Web site (UI)
+1.Tag - HTML, Body, Form, P, Span, table(th,td,tr),div, header, footer, ul,ol, li,a(href), img,title, head,h1
+2.Input Control - Label,Input(text,textarea,number,date),select,dateandtime,file upload,
+
+CSS
+1.Normal CSS based on Html Control (position, width, heigth, border, margin, padding, color, background, text-align, Pseudo-classes, Pseudo-element, opacity
+2.Varible css (dynamic css)
+3.Resposive - (Tablet, Desktop, Mobile, Laptop) based on the HTML Control ------Media Query
+
+JavaScript
+1.Looping - For, while, Map, Foreach
+2.Condition - IF, IF ELse, IF Elseif else, Switch
+3.ES5 & 6 - Map, Filter, Reduce, Find
+4.Prototype - Array, Object, String,....
+5.Function
+
+ReactJS
+1.Hooks - UseEffect, UseReduce, UseCallback, UseMemo, UseRef, UseState
+2.Redux - Store, Type(Action,Payload)
+3.Router - BrowserRouter as Router,Routes,Route,Link
+4.CreateContext
+5.Component - Class Component and Function Component
+
+
+Required Softwares,
+Visual Studio Code
+Nodejs
+Xamp Server(SQL Database) or MongoDb (NoSQL Database)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Looping:
+For,
+For each,
+Map,
+While
+
+
+
+Condition
+IF
+IF Else
+IF Elseif Else
+Switch
+
+
+Tenarory Condition 
+
