@@ -1,0 +1,62 @@
+.btnsubmit{
+    background-color: green;
+    color: black;
+    text-shadow: 2px 2px white;
+    /* width: 30px;
+    text-overflow: ellipsis; */
+}
+.btnclear{
+    background-color: yellow;
+    color: black;
+    text-shadow: 2px 2px grey;
+}
+.btncancel{
+    background-color: red;
+    color: black;
+    text-shadow: 2px 2px white;
+}
+
+  @media only screen and (min-width: 150px) and (max-width: 900px) {
+    body {
+      background-color: lightblue;
+    }
+    #Regitrationtable {
+        width: 500px;
+    }
+    .ipcontrol{
+        width: 500px;
+    }
+  }
+  @media only screen and (min-width: 900px) and (max-width: 1100px) {
+    body {
+      background-color: rgb(202, 229, 79);
+    }
+    #Regitrationtable {
+        width: 700px;
+    }
+    .ipcontrol{
+        width: 700px;
+    }
+  }
+  @media only screen and (min-width: 1100px) and (max-width: 1700px) {
+    body {
+      background-color: rgb(57, 216, 105);
+    }
+    #Regitrationtable {
+        width: 900px;
+    }
+    .ipcontrol{
+        width: 900px;
+    }
+  }
+  @media only screen and (min-width: 1800px) and (max-width: 2000px) {
+    body {
+      background-color: rgb(52, 86, 189);
+    }
+    #Regitrationtable {
+        width: 1000px;
+    }
+    .ipcontrol{
+        width: 1000px;
+    }
+  }

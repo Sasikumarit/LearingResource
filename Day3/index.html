@@ -1,0 +1,237 @@
+<html>
+<title> Sample Program - Learning</title>
+<head>
+  <meta name="viewport" content="width=device-width, user-scalable=no" />
+  <link  rel="stylesheet" href="style.css" />
+</head>
+
+<style>
+  .imgset {
+    /* background-image:url("C:/Users/v-ssasikumar/Downloads/download.png");
+		background-repeat: no-repeat; */
+    width: '900px';
+    height: '750px';
+  }
+
+  .tablerow {
+    border: 1px solid black;
+  }
+
+  #Regitrationtable {
+    font-size: 20px;
+    color: red;
+    border: 1px solid black;
+  }
+  .tablecolumn{
+    border: 1px solid black;
+  }
+</style>
+<script>
+  var flag = 0;
+  function onClickhandler() {
+    alert(document.getElementById('name').value)
+  }
+  function onClickhandlerClose() {
+    alert('This Page will be closing due to some technical issue.')
+    window.close()
+  }
+  function onClickhandlersearch() {
+    var root = document.getElementById("Searchbox")
+    root.setAttribute("style", "display:''")
+    root.innerHTML = "Searching Data " + document.getElementById('name').value;
+  }
+  function onChangehandler() {
+
+    var root = document.getElementById("Searchbox")
+    root.setAttribute("style", "display:none")
+    //root.innerHTML="Searching Data " + document.getElementById('name').value;
+  }
+</script>
+
+<body class="imgset">
+  <h1 style="text-align: center;text-shadow: 2px 2px #ff0000;">Sample Program</h1>
+
+  <div style="background-color: pink;  padding: 50px 50px 50px 50px;">
+
+    <a href="home.html">Home</a>
+
+    <table id="Regitrationtable"
+      style="background-color: lightgreen; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; ">
+      <tr class="tablerow">
+        <td><img src="C:\Users\v-ssasikumar\Downloads\download.png" width="50px" heigth="50px" /></td>
+        <td>Registration</td>
+      </tr>
+      <tr class="tablerow">
+        <td class="tablecolumn">Name</td>
+        <td><input type="text" class="ipcontrol"/></td>
+      </tr>
+
+      <tr class="tablerow">
+        <td class="tablecolumn">Age</td>
+        <td><input type="number" class="ipcontrol"/></td>
+      </tr>
+
+      <tr class="tablerow">
+        <td class="tablecolumn">DOB</td>
+        <td><input type="date" class="ipcontrol"/>
+      </tr>
+
+      <tr class="tablerow">
+        <td class="tablecolumn">Gender</td>
+
+        <td>
+          <input type="radio" /><label>Male</label>
+          <input type="radio" /><label>Female</label>
+        </td>
+      </tr>
+
+      <tr class="tablerow">
+        <td class="tablecolumn">Address</td>
+        <td><textarea class="ipcontrol"></textarea>
+      </tr>
+
+      <tr class="tablerow">
+        <td class="tablecolumn">City</td>
+
+        <td>
+          <select class="ipcontrol">
+            <option> Mettupalyam</option>
+            <option> Coimbatore</option>
+          </select>
+        </td>
+      </tr>
+      <tr class="tablerow">
+        <td class="tablecolumn">State</td>
+
+        <td>
+          <select class="ipcontrol">
+            <option> TN</option>
+            <option> KN</option>
+          </select>
+        </td>
+      </tr>
+      <tr class="tablerow">
+        <td class="tablecolumn">Pincode</td>
+        <td><input type="number" class="ipcontrol"/></td>
+      </tr>
+
+      <tr class="tablerow">
+        <td class="tablecolumn">Attachment</td>
+        <td><input type="file" class="ipcontrol"/></td>
+      </tr>
+      <tr class="tablerow">
+        <td><input type="checkbox" /> I agree</td>
+      </tr>
+
+      <tr class="tablerow">
+        <td><button class="btnsubmit">Submit</button></td>
+        <td><button class="btnclear">Clear</button></td>
+        <td><button class="btncancel">Cancel</button></td>
+      </tr>
+    </table>
+
+  </div>
+
+
+  <!-- <div style="background-color: brown; margin:20px">
+    <label style="color: green; font-size:50px;"> I
+      am
+      Programer </label>
+  </div>
+  <p style="background-color: blueviolet; width:500px; height: 250px;"><label
+      style="color: green; font-size:50px; margin: 150px;"> I
+      am
+      Programer </label>
+  </p>
+  <span></span>
+  <input type="text" value="" id="name" />
+  <button style="background-color: darkorange;" onclick="alert(document.getElementById('name').value)">Save</button> -->
+
+  <!-- <div>
+    <div style=" display: flex;">
+    <div style="color:green; width: 100px;">
+      <img src="C:\Users\v-ssasikumar\Downloads\download.png" width="50px" heigth="50px" />
+    </div>
+    <div style="color:green; width: 100px;">
+      <label> I am PRogramer </label>
+    </div>
+    </div>
+    <br />
+    <div style="display: flex;">
+      <div style="color:green; width: 100px;">
+        <label> Name </label>
+      </div>
+      <input type="text" name="name" id="name" value="" onChange="onChangehandler()" />
+    </div>
+    <br />
+    <div style="display: flex;">
+      <div style="color:green; width: 100px;">
+        <label width="100px"> Age </label>
+      </div>
+      <input type="number" name="age" id="age" value="" />
+    </div>
+    <br />
+
+    <div style="display: flex;">
+      <div style="color:green; width: 100px;">
+        <label width="100px"> DOB </label>
+      </div>
+      <input type="date" name="date" id="date" />
+    </div>
+
+    <br />
+
+    <div style="display: flex;">
+      <div style="color:green; width: 100px;">
+        <label width="100px"> Gender </label>
+      </div>
+      <input type="radio" name="gender" id="gender" value="Male" text="Male" /> Male
+      <input type="radio" name="gender" id="gender" value="Female" text="Male" /> Female
+    </div>
+
+    <br />
+
+    <div style="display: flex;">
+      <div style="color:green; width: 100px;">
+        <label width="100px"> City </label>
+      </div>
+      <select>
+        <option> Mettupalayam</option>
+        <option> Coimbatore</option>
+        <option> Coimbatore</option>
+        <option> Coimbatore</option>
+      </select>
+    </div>
+    <br />
+
+    <br />
+
+    <div style="display: flex;">
+      <div style="color:green; width: 100px;">
+        <label width="100px"> Upload image </label>
+      </div>
+      <input type="file" name="file" id="file" />
+    </div>
+    <br />
+    <div style="display: flex; ">
+      <div style="padding-left: 10px;">
+        <button onclick="onClickhandler()">Save</button>
+      </div>
+      <div style="padding-left: 10px;">
+        <button onclick="onClickhandlersearch()">Search</button>
+      </div>
+      <div style="padding-left: 10px;">
+        <button onclick="onClickhandlerClose()">Cancel</button>
+      </div>
+    </div>
+    <br />
+    <br />
+    <div style="display: none;" id="Searchbox">
+    </div>
+    </div> -->
+
+
+
+</body>
+
+</html>

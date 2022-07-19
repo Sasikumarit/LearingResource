@@ -1,0 +1,67 @@
+<!--
+tags
+
+
+1. HTML Tags
+-----------------
+html
+title
+boby
+div
+h1 - h5
+
+Display the text
+p
+span
+label
+
+
+2. controls
+------------------
+
+input (text,textarea,number,date,radio)
+select
+file upload
+
+
+-->
+
+
+<html>
+<title> Sample Program - Learning</title>
+<style>
+  .imgset {
+    /* background-image:url("C:/Users/v-ssasikumar/Downloads/download.png");
+		background-repeat: no-repeat; */
+    width: '900px';
+    height: '750px';
+  }
+</style>
+<script>
+  var flag = 0;
+  function onClickhandler() {
+    alert(document.getElementById('name').value)
+  }
+  function onClickhandlerClose() {
+    alert('This Page will be closing due to some technical issue.')
+    window.close()
+  }
+  function onClickhandlersearch() {
+    var root = document.getElementById("Searchbox")
+    root.setAttribute("style", "display:''")
+    root.innerHTML = "Searching Data " + document.getElementById('name').value;
+  }
+  function onChangehandler() {
+
+    var root = document.getElementById("Searchbox")
+    root.setAttribute("style", "display:none")
+    //root.innerHTML="Searching Data " + document.getElementById('name').value;
+  }
+</script>
+
+<body class="imgset">
+  <h1>Welcome to home Page...!</h1>
+
+</body>
+
+</html>
