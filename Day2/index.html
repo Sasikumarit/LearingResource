@@ -8,36 +8,110 @@
     height: '750px';
   }
 </style>
-<script>
-  var flag = 0;
-  function onClickhandler() {
-    alert(document.getElementById('name').value)
-  }
-  function onClickhandlerClose() {
-    alert('This Page will be closing due to some technical issue.')
-    window.close()
-  }
-  function onClickhandlersearch() {
-    var root = document.getElementById("Searchbox")
-    root.setAttribute("style", "display:''")
-    root.innerHTML = "Searching Data " + document.getElementById('name').value;
-  }
-  function onChangehandler() {
 
-    var root = document.getElementById("Searchbox")
-    root.setAttribute("style", "display:none")
-    //root.innerHTML="Searching Data " + document.getElementById('name').value;
-  }
-</script>
+
+
 
 <body class="imgset">
-  <h1 style="text-align: center;">Sample Program</h1>
+  <div style="display: flex;">
+ <img src="download.png" width="50px" height="50px"/>
+  <h1 >Registration</h1>
+</div>
 
   <div style="background-color: pink;  padding: 50px 50px 50px 50px;">
 
-    <a href="home.html">Home</a>
+<!-- <p style="background-color: green;">Keerthi</p>
+<label>Keerthi Family</label>
+<span>Keerthi Store</span> -->
 
-    <table style="border: 1px solid black;">
+    <a href="home.html">Home</a>
+    <!-- <header>SAmple Output</header>
+    <footer>Copy right</footer> -->
+    <!-- <ul>
+      <li>Things</li>
+      <li>Home</li>
+      <li>Window</li>
+    </ul>
+    <ol>
+      <li>Things</li>
+      <li>Home</li>
+      <li>Window</li>
+    </ol> -->
+
+    <table>
+<tr>
+  <td><label> Name</label></td>
+  <td><input type="text"/></td>
+</tr>
+
+<tr>
+  <td><label> Age</label></td>
+  <td><input type="number"/></td>
+</tr>
+
+<tr>
+  <td><label> DOB</label></td>
+  <td><input type="date"/></td>
+</tr>
+
+<tr>
+  <td><label> Gender</label></td>
+  <td> <input type="radio" name='gender'/>Male
+    <input type="radio" name='gender'/>Female</td>
+</tr>
+
+<tr>
+  <td><label> Address</label></td>
+  <td><textarea></textarea></td>
+</tr>
+
+<tr>
+  <td><label> City</label></td>
+  <td><select>
+    <option>Coimbatore</option>
+    <option>Mettupalayam</option>
+  </select></td>
+</tr>
+
+<tr>
+  <td><label> State</label></td>
+  <td> <select>
+    <option>Tamilnadu</option>
+    <option>Kerala</option>
+  </select></td>
+</tr>
+
+<tr>
+  <td><label> Pincode</label></td>
+  <td> <input type="number"/></td>
+</tr>
+
+<tr>
+  <td><label> Mail</label></td>
+  <td> <input type="email"/></td>
+</tr>
+
+<tr>
+  <td><label> Interset Domain</label></td>
+  <td> <input type="checkbox"/> Fashion Designing
+    <input type="checkbox"/> React Developer
+    <input type="checkbox"/> html Developer</td>
+</tr>
+
+<tr>
+  <td><label> Upload Support Document</label></td>
+  <td> <input type="file"/></td>
+</tr>
+<tr>
+  <td> <input type="button" value="Submit"/>
+    <button>Clear</button>
+    <button>Cancel</button></td>
+</tr>
+
+</table>
+
+
+    <!-- <table style="border: 1px solid black;">
       <tr style="border: 1px solid black;">
         <td><img src="C:\Users\v-ssasikumar\Downloads\download.png" width="50px" heigth="50px" /></td>
         <td>Registration</td>
@@ -108,108 +182,9 @@
         <td><button>Submit</button></td>
         <td><button>Next Page</button></td>
       </tr>
-    </table>
+    </table> -->
 
   </div>
-
-
-  <!-- <div style="background-color: brown; margin:20px">
-    <label style="color: green; font-size:50px;"> I
-      am
-      Programer </label>
-  </div>
-  <p style="background-color: blueviolet; width:500px; height: 250px;"><label
-      style="color: green; font-size:50px; margin: 150px;"> I
-      am
-      Programer </label>
-  </p>
-  <span></span>
-  <input type="text" value="" id="name" />
-  <button style="background-color: darkorange;" onclick="alert(document.getElementById('name').value)">Save</button> -->
-
-  <!-- <div>
-    <div style=" display: flex;">
-    <div style="color:green; width: 100px;">
-      <img src="C:\Users\v-ssasikumar\Downloads\download.png" width="50px" heigth="50px" />
-    </div>
-    <div style="color:green; width: 100px;">
-      <label> I am PRogramer </label>
-    </div>
-    </div>
-    <br />
-    <div style="display: flex;">
-      <div style="color:green; width: 100px;">
-        <label> Name </label>
-      </div>
-      <input type="text" name="name" id="name" value="" onChange="onChangehandler()" />
-    </div>
-    <br />
-    <div style="display: flex;">
-      <div style="color:green; width: 100px;">
-        <label width="100px"> Age </label>
-      </div>
-      <input type="number" name="age" id="age" value="" />
-    </div>
-    <br />
-
-    <div style="display: flex;">
-      <div style="color:green; width: 100px;">
-        <label width="100px"> DOB </label>
-      </div>
-      <input type="date" name="date" id="date" />
-    </div>
-
-    <br />
-
-    <div style="display: flex;">
-      <div style="color:green; width: 100px;">
-        <label width="100px"> Gender </label>
-      </div>
-      <input type="radio" name="gender" id="gender" value="Male" text="Male" /> Male
-      <input type="radio" name="gender" id="gender" value="Female" text="Male" /> Female
-    </div>
-
-    <br />
-
-    <div style="display: flex;">
-      <div style="color:green; width: 100px;">
-        <label width="100px"> City </label>
-      </div>
-      <select>
-        <option> Mettupalayam</option>
-        <option> Coimbatore</option>
-        <option> Coimbatore</option>
-        <option> Coimbatore</option>
-      </select>
-    </div>
-    <br />
-
-    <br />
-
-    <div style="display: flex;">
-      <div style="color:green; width: 100px;">
-        <label width="100px"> Upload image </label>
-      </div>
-      <input type="file" name="file" id="file" />
-    </div>
-    <br />
-    <div style="display: flex; ">
-      <div style="padding-left: 10px;">
-        <button onclick="onClickhandler()">Save</button>
-      </div>
-      <div style="padding-left: 10px;">
-        <button onclick="onClickhandlersearch()">Search</button>
-      </div>
-      <div style="padding-left: 10px;">
-        <button onclick="onClickhandlerClose()">Cancel</button>
-      </div>
-    </div>
-    <br />
-    <br />
-    <div style="display: none;" id="Searchbox">
-    </div>
-    </div> -->
-
 
 
 </body>
