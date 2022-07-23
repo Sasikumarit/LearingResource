@@ -26,36 +26,3 @@ Required Softwares,
 Visual Studio Code
 Nodejs
 Xamp Server(SQL Database) or MongoDb (NoSQL Database)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Looping:
-For,
-For each,
-Map,
-While
-
-
-
-Condition
-IF
-IF Else
-IF Elseif Else
-Switch
-
-
-Tenarory Condition 
-

@@ -1,0 +1,56 @@
+
+Day 1:
+HTML, CSS, JavaScript, ReactJS - Overview
+
+Day 2:
+HTML - Tag and Control
+
+Day 3:
+CSS - Inline CSS, Internal CSS, External CSS, Resposive using Media Query
+
+Day 4:
+JavaScript - Function, variables, Condition, Object
+function
+Declare a function - function function_name(){    }
+calling a function - function_name();
+
+Condition
+IF
+IF Else
+IF Elseif Else
+Switch
+Tenarory Condition
+
+variables
+1. let 
+2. var
+3. const
+
+
+Day 5:
+JavaScript primitive data types
+There are five types of primitive data types in JavaScript. They are as follows:
+String	- represents sequence of characters e.g. "hello"
+Number	- represents numeric values e.g. 100
+Boolean	- represents boolean value either false or true
+Undefined	- represents undefined value
+Null -	represents null i.e. no value at all
+
+JavaScript non-primitive data types
+There are three types of non-primitive data types in JavaScript. They are as follows:
+Object -represents instance through which we can access members
+Array -represents group of similar values
+RegExp -represents regular expression
+
+Topic Covered in Detail
+1.Array
+2.Object
+
+
+
+
+Looping:
+For,
+For each,
+Map,
+While
