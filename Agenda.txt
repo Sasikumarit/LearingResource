@@ -20,11 +20,12 @@ IF Else
 IF Elseif Else
 Switch
 Tenarory Condition
+While
 
 variables
-1. let 
-2. var
-3. const
+1. let  ex: let sample='Sasi'; -> sample=1000
+2. var ex: var sample='Sasi'; -> sample=1000
+3. const ex: const sample='Sasi'; 
 
 
 Day 5:

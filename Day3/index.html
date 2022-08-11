@@ -63,12 +63,12 @@
       </tr>
       <tr class="tablerow">
         <td class="tablecolumn">Name</td>
-        <td><input type="text" class="ipcontrol"/></td>
+        <td><input type="text" id="name" class="ipcontrol" /></td>
       </tr>
 
       <tr class="tablerow">
         <td class="tablecolumn">Age</td>
-        <td><input type="number" class="ipcontrol"/></td>
+        <td><input type="number" id="age" class="ipcontrol"/></td>
       </tr>
 
       <tr class="tablerow">
@@ -94,8 +94,8 @@
         <td class="tablecolumn">City</td>
 
         <td>
-          <select class="ipcontrol">
-            <option> Mettupalyam</option>
+          <select class="ipcontrol" >
+            <option > Mettupalyam</option>
             <option> Coimbatore</option>
           </select>
         </td>
@@ -124,7 +124,7 @@
       </tr>
 
       <tr class="tablerow">
-        <td><button class="btnsubmit">Submit</button></td>
+        <td><button class="btnsubmit" onclick="alert(document.getElementById('name').value+ 'Record Saved Successfully......!')">Submit</button></td>
         <td><button class="btnclear">Clear</button></td>
         <td><button class="btncancel">Cancel</button></td>
       </tr>
