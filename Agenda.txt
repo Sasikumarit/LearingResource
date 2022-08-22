@@ -50,8 +50,30 @@ Topic Covered in Detail
 
 
 
-Looping:
-For,
+
+
+Day 9:
+Topic Covered in Detail
+1. Looping:
+JavaScript supports different kinds of loops:
+for - loops through a block of code a number of times
+while - loops through a block of code while a specified condition is true
+do/while - also loops through a block of code while a specified condition is true
+
+2. ECMAScript
+This tutorial covers every version of JavaScript:
+The Original JavaScript ES1 ES2 ES3 (1997-1999)
+The First Main Revision ES5 (2009)
+The Second Revision ES6 (2015)
+Yearly Additions (2016, 2017, 2018)
+
+
+
+ES
+-------
 For each,
 Map,
-While
+filter
+find
+-----
+

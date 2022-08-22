@@ -21,7 +21,7 @@
 //     console.log("My Gender is "+sex);
 // }
 
-const  arrowPersonalDetails=(name,age,gender)=>{
+var  arrowPersonalDetails =   (name,age,gender)=>{
     let dob= 2022-age;
 
     var sex= gender?'Male':'Female';
@@ -66,6 +66,9 @@ const  arrowPersonalDetails=(name,age,gender)=>{
     console.log("My Gender is "+sex);
 }
 
+
+
 arrowPersonalDetails("Jaga",15,true);
 arrowPersonalDetails('Keerthi',23,false);
 arrowPersonalDetails('Sasi',28,true);
+arrowPersonalDetails();
