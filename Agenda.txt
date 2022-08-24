@@ -68,7 +68,8 @@ The Second Revision ES6 (2015)
 Yearly Additions (2016, 2017, 2018)
 
 
-
+Day 10:
+Topic Covered in Detail
 ES
 -------
 For each,
