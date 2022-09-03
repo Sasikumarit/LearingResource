@@ -1,0 +1,21 @@
+h1{
+    color: rgb(73, 165, 42);
+}
+
+#departmental{
+    background-color: rgb(220, 196, 242);
+}
+
+.button-container{
+    background-color: darkgray;
+}
+
+.buttonclear{
+    background-color: darkgoldenrod;
+    color: white;
+}
+
+#save{
+    background-color: green;
+    color: white;
+}

@@ -78,3 +78,8 @@ filter
 find
 -----
 
+Day 11:
+Topic Covered in Detail
+To Implement the javascript in HTML code. 
+How to Use External CSS and JavaScript in HTML Page.
+How to apply CSS Property  based on the Classname, Tagname, Control-Id in HTML Page.

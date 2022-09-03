@@ -1,0 +1,33 @@
+<html>
+    <title>Sample</title>
+    <head>
+        <link rel="stylesheet" href="index.css"/>
+        <script src="index.js"></script>
+        <script>
+               //Internal Javascript
+            const onClearHandler=()=>{
+                document.getElementById('ItemName').value=''
+                document.getElementById('ItemCode').value='';
+            }
+        </script>
+    </head>
+    <body>
+        <h1 style="text-align: center;"> Sample Program to implementing the javascript in HTML code. </h1>
+        <div id="departmental">
+            <label> ItemCode</label>&nbsp; <input type="text" id="ItemCode"/>
+        </br></br>
+            <label> ItemName</label> &nbsp; <input type="text"  id="ItemName"/>
+        </div>
+    </br>
+        <div class="button-container">
+            <!-- External -->
+            <button onclick="onsavehandler()" id="save">Save</button>
+            <!-- Internal -->
+            <button onclick="onClearHandler()" class="buttonclear">Clear</button>
+            <!-- Inline -->
+            <button onclick="window.close()" style="background-color: red; color: white;">Cancel</button>
+        </div>
+    </br> </br>
+        <div id="displayTextData"></div>
+    </bod>
+</html>
