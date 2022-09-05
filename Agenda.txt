@@ -83,3 +83,12 @@ Topic Covered in Detail
 To Implement the javascript in HTML code. 
 How to Use External CSS and JavaScript in HTML Page.
 How to apply CSS Property  based on the Classname, Tagname, Control-Id in HTML Page.
+
+Day 12:
+Topic Covered in Detail
+React Implementation
+Command
+1. npm install -g create-react-app
+2. npx create-react-app my-app
+3. cd my-app
+4. npm start
