@@ -92,3 +92,8 @@ Command
 2. npx create-react-app my-app
 3. cd my-app
 4. npm start
+
+
+Day 13:
+Topic Covered in Detail
+React - Function Component
