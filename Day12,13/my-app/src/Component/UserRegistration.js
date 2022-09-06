@@ -5,11 +5,7 @@ import loginimage from '../asset/download.png'
 
 const UserRegistration = () =>{
 
-const  onclickhandler=()=>{
-    
-}
-
-    return(<div>
+ return(<div>
  <h1>Sample Program</h1>
 
  <div>
